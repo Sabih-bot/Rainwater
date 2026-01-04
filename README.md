@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# RainHarvest - Sustainable Rainwater Harvesting Solutions
 
-## Project info
+A modern, responsive web application built to educate and promote rainwater harvesting solutions for residential and commercial applications.
 
-**URL**: https://lovable.dev/projects/a01a2f6c-faa5-4b7b-a227-4266499f379a
+## Project Overview
 
-## How can I edit this code?
+RainHarvest is a comprehensive platform that provides:
+- Educational resources about rainwater harvesting
+- Product catalogs for harvesting systems
+- Installation tips and best practices
+- Industry news and developments
+- Contact information for consultations
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+This project is built with modern web technologies:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a01a2f6c-faa5-4b7b-a227-4266499f379a) and start prompting.
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI framework
+- **React Router** - Client-side routing
+- **shadcn/ui** - Modern UI component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Icon library
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v18 or higher)
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/sabih-bot/Rainwater.git
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navigate to the project directory:
+```bash
+cd rain-water-main
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run deploy` - Deploy to GitHub Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # Reusable UI components
+├── pages/              # Page components
+│   ├── Index.tsx       # Homepage
+│   ├── Categories.tsx  # System categories
+│   ├── Products.tsx    # Product catalog
+│   ├── Tips.tsx        # Educational tips
+│   ├── Facts.tsx       # Water conservation facts
+│   ├── Developments.tsx # Industry news
+│   └── Contact.tsx     # Contact page
+├── assets/             # Static assets
+├── hooks/              # Custom React hooks
+└── index.css           # Global styles
+```
 
-This project is built with:
+## Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI**: Clean, professional interface with smooth animations
+- **Educational Content**: Comprehensive information about rainwater harvesting
+- **Product Showcase**: Detailed product listings with specifications
+- **Interactive Elements**: Engaging user interface components
+- **SEO Optimized**: Meta tags and structured data for search engines
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/a01a2f6c-faa5-4b7b-a227-4266499f379a) and click on Share -> Publish.
+This project is configured to deploy to GitHub Pages automatically using the `npm run deploy` command.
 
-## Can I connect a custom domain to my Lovable project?
+## Contributing
 
-Yes, you can!
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the MIT License.
